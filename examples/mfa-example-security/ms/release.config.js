@@ -5,7 +5,7 @@
 module.exports = {
     branches: ["main"],
     plugins: [
-        ["@semantic-release/commit-analyzer", {
+        ["../../../release/zero-major-analyzer", {
             preset: 'angular',
             releaseRules: [
                 { type: 'feat', release: 'minor' },
